@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dds_in">
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_pll|dds_in:dds_in_0|rom:rom_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8u91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dds_pll|pll:pll_inst|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

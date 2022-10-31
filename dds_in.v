@@ -1,0 +1,57 @@
+module dds_in(
+    input   wire        clk,
+    input   wire        rstn,
+
+    output  wire     [7:0]data
+);
+
+parameter F_WORD = 32'd4_294_967_2*5;
+parameter P_WORD = 12'd0;
+
+reg [31:0]fre_add;
+reg [14:0]rom_adder;
+reg [14:0]rom_reg;
+
+always @(posedge clk or negedge rstn) begin
+    if(!rstn)
+        fre_add <= 1'b0;
+    else 
+        fre_add <= fre_add + F_WORD;
+end
+
+always @(posedge clk or negedge rstn) begin
+    if(!rstn)
+        rom_adder <= 1'b0;
+    else 
+        rom_adder <= fre_add[31:17] + P_WORD;
+end
+
+always @(posedge clk or negedge rstn) begin
+    if(!rstn)
+        rom_reg <= 1'b0;
+    else 
+        rom_reg <= rom_adder;
+end
+
+/*always @(posedge clk or negedge rstn) begin
+    if(!rstn)
+        rom_reg <= 1'b0;
+    else case(sel)
+        4'b0001:rom_reg <= rom_adder;
+        4'b0010:rom_reg <= rom_adder + 14'd4096;
+        4'b0100:rom_reg <= rom_adder + 14'd8192;
+        4'b1000:rom_reg <= rom_adder + 14'd12288;
+    default : rom_reg <= rom_adder;
+    
+    endcase
+end*/
+
+rom	rom_inst (
+	.address ( rom_reg ),
+	.clock ( clk ),
+	.q ( data )
+	);
+
+
+
+endmodule

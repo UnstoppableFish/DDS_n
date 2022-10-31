@@ -1,0 +1,151 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Quartus/work/DDS_n/simulation/modelsim
+T_opt
+!s110 1666098999
+V>U3B]`KFP_WQ1@Cd03;Ea0
+04 9 4 work tb_dda_in fast 0
+=1-54bf640aa85d-634ea736-3e1-5aac
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+vdds_in
+Z2 !s110 1666098997
+!i10b 1
+!s100 7972f53=EY?HJQjTK?N_11
+IYXH]gnHZZDT5:D0n@lz;=1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666098734
+8D:/Quartus/work/DDS_n/dds_in.v
+FD:/Quartus/work/DDS_n/dds_in.v
+L0 1
+Z4 OL;L;10.5;63
+r1
+!s85 0
+31
+Z5 !s108 1666098997.000000
+!s107 D:/Quartus/work/DDS_n/dds_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n|D:/Quartus/work/DDS_n/dds_in.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+D:/Quartus/work/DDS_n -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdds_pll
+R2
+!i10b 1
+!s100 gUJHz[XGEJiT04De4Ka`c1
+IYdT2P:kF89`hNmKnKE8X[2
+R3
+R0
+w1666087324
+8D:/Quartus/work/DDS_n/dds_pll.v
+FD:/Quartus/work/DDS_n/dds_pll.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus/work/DDS_n/dds_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n|D:/Quartus/work/DDS_n/dds_pll.v|
+!i113 0
+R6
+R7
+R1
+vpll
+R2
+!i10b 1
+!s100 a:=N2FULjh@;8R6OoSiD?0
+I7=[dK`Yl>ORKUz^M2mIY[3
+R3
+R0
+w1666086973
+8D:/Quartus/work/DDS_n/pll_core/pll.v
+FD:/Quartus/work/DDS_n/pll_core/pll.v
+Z8 L0 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Quartus/work/DDS_n/pll_core/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n/pll_core|D:/Quartus/work/DDS_n/pll_core/pll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/Quartus/work/DDS_n/pll_core -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpll_altpll
+Z9 !s110 1666098998
+!i10b 1
+!s100 Xm]@g0i6Y^VmJP5U5dRA93
+IIOjCojbUj3i^BiA=j2?0d0
+R3
+R0
+w1666087687
+8D:/Quartus/work/DDS_n/db/pll_altpll.v
+FD:/Quartus/work/DDS_n/db/pll_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+Z10 !s108 1666098998.000000
+!s107 D:/Quartus/work/DDS_n/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n/db|D:/Quartus/work/DDS_n/db/pll_altpll.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/Quartus/work/DDS_n/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vrom
+R9
+!i10b 1
+!s100 QkAz`I=Elf>jkPlDHNA3H3
+IaQDbllLJaIK^8Y5JdnL>@1
+R3
+R0
+w1666098962
+8D:/Quartus/work/DDS_n/rom_core/rom.v
+FD:/Quartus/work/DDS_n/rom_core/rom.v
+R8
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Quartus/work/DDS_n/rom_core/rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n/rom_core|D:/Quartus/work/DDS_n/rom_core/rom.v|
+!i113 0
+R6
+!s92 -vlog01compat -work work +incdir+D:/Quartus/work/DDS_n/rom_core -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_dda_in
+R9
+!i10b 1
+!s100 ONo>gk@G8C?hNG6PMeAzI1
+IO4fbP[TN1XGJUO=X>bABY3
+R3
+R0
+w1666085388
+8D:/Quartus/work/DDS_n/tb_dda_in.v
+FD:/Quartus/work/DDS_n/tb_dda_in.v
+L0 2
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Quartus/work/DDS_n/tb_dda_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Quartus/work/DDS_n|D:/Quartus/work/DDS_n/tb_dda_in.v|
+!i113 0
+R6
+R7
+R1
